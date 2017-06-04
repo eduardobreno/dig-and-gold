@@ -1,0 +1,2514 @@
+fileFormatVersion: 2
+guid: 25620fc8977471741aaddd799812b44e
+timeCreated: 1492981392
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tilemap_fase2_0
+    21300002: Tilemap_fase2_1
+    21300004: Tilemap_fase2_2
+    21300006: Tilemap_fase2_3
+    21300008: Tilemap_fase2_4
+    21300010: Tilemap_fase2_5
+    21300012: Tilemap_fase2_6
+    21300014: Tilemap_fase2_7
+    21300016: Tilemap_fase2_8
+    21300018: Tilemap_fase2_9
+    21300020: Tilemap_fase2_10
+    21300022: Tilemap_fase2_11
+    21300024: Tilemap_fase2_12
+    21300026: Tilemap_fase2_13
+    21300028: Tilemap_fase2_14
+    21300030: Tilemap_fase2_15
+    21300032: Tilemap_fase2_16
+    21300034: Tilemap_fase2_17
+    21300036: Tilemap_fase2_18
+    21300038: Tilemap_fase2_19
+    21300040: Tilemap_fase2_20
+    21300042: Tilemap_fase2_21
+    21300044: Tilemap_fase2_22
+    21300046: Tilemap_fase2_23
+    21300048: Tilemap_fase2_24
+    21300050: Tilemap_fase2_25
+    21300052: Tilemap_fase2_26
+    21300054: Tilemap_fase2_27
+    21300056: Tilemap_fase2_28
+    21300058: Tilemap_fase2_29
+    21300060: Tilemap_fase2_30
+    21300062: Tilemap_fase2_31
+    21300064: Tilemap_fase2_32
+    21300066: Tilemap_fase2_33
+    21300068: Tilemap_fase2_34
+    21300070: Tilemap_fase2_35
+    21300072: Tilemap_fase2_36
+    21300074: Tilemap_fase2_37
+    21300076: Tilemap_fase2_38
+    21300078: Tilemap_fase2_39
+    21300080: Tilemap_fase2_40
+    21300082: Tilemap_fase2_41
+    21300084: Tilemap_fase2_42
+    21300086: Tilemap_fase2_43
+    21300088: Tilemap_fase2_44
+    21300090: Tilemap_fase2_45
+    21300092: Tilemap_fase2_46
+    21300094: Tilemap_fase2_47
+    21300096: Tilemap_fase2_48
+    21300098: Tilemap_fase2_49
+    21300100: Tilemap_fase2_50
+    21300102: Tilemap_fase2_51
+    21300104: Tilemap_fase2_52
+    21300106: Tilemap_fase2_53
+    21300108: Tilemap_fase2_54
+    21300110: Tilemap_fase2_55
+    21300112: Tilemap_fase2_56
+    21300114: Tilemap_fase2_57
+    21300116: Tilemap_fase2_58
+    21300118: Tilemap_fase2_59
+    21300120: Tilemap_fase2_60
+    21300122: Tilemap_fase2_61
+    21300124: Tilemap_fase2_62
+    21300126: Tilemap_fase2_63
+    21300128: Tilemap_fase2_64
+    21300130: Tilemap_fase2_65
+    21300132: Tilemap_fase2_66
+    21300134: Tilemap_fase2_67
+    21300136: Tilemap_fase2_68
+    21300138: Tilemap_fase2_69
+    21300140: Tilemap_fase2_70
+    21300142: Tilemap_fase2_71
+    21300144: Tilemap_fase2_72
+    21300146: Tilemap_fase2_73
+    21300148: Tilemap_fase2_74
+    21300150: Tilemap_fase2_75
+    21300152: Tilemap_fase2_76
+    21300154: Tilemap_fase2_77
+    21300156: Tilemap_fase2_78
+    21300158: Tilemap_fase2_79
+    21300160: Tilemap_fase2_80
+    21300162: Tilemap_fase2_81
+    21300164: Tilemap_fase2_82
+    21300166: Tilemap_fase2_83
+    21300168: Tilemap_fase2_84
+    21300170: Tilemap_fase2_85
+    21300172: Tilemap_fase2_86
+    21300174: Tilemap_fase2_87
+    21300176: Tilemap_fase2_88
+    21300178: Tilemap_fase2_89
+    21300180: Tilemap_fase2_90
+    21300182: Tilemap_fase2_91
+    21300184: Tilemap_fase2_92
+    21300186: Tilemap_fase2_93
+    21300188: Tilemap_fase2_94
+    21300190: Tilemap_fase2_95
+    21300192: Tilemap_fase2_96
+    21300194: Tilemap_fase2_97
+    21300196: Tilemap_fase2_98
+    21300198: Tilemap_fase2_99
+    21300200: Tilemap_fase2_100
+    21300202: Tilemap_fase2_101
+    21300204: Tilemap_fase2_102
+    21300206: Tilemap_fase2_103
+    21300208: Tilemap_fase2_104
+    21300210: Tilemap_fase2_105
+    21300212: Tilemap_fase2_106
+    21300214: Tilemap_fase2_107
+    21300216: Tilemap_fase2_108
+    21300218: Tilemap_fase2_109
+    21300220: Tilemap_fase2_110
+    21300222: Tilemap_fase2_111
+    21300224: Tilemap_fase2_112
+    21300226: Tilemap_fase2_113
+    21300228: Tilemap_fase2_114
+    21300230: Tilemap_fase2_115
+    21300232: Tilemap_fase2_116
+    21300234: Tilemap_fase2_117
+    21300236: Tilemap_fase2_118
+    21300238: Tilemap_fase2_119
+    21300240: Tilemap_fase2_120
+    21300242: Tilemap_fase2_121
+    21300244: Tilemap_fase2_122
+    21300246: Tilemap_fase2_123
+    21300248: Tilemap_fase2_124
+    21300250: Tilemap_fase2_125
+    21300252: Tilemap_fase2_126
+    21300254: Tilemap_fase2_127
+    21300256: Tilemap_fase2_128
+    21300258: Tilemap_fase2_129
+    21300260: Tilemap_fase2_130
+    21300262: Tilemap_fase2_131
+    21300264: Tilemap_fase2_132
+    21300266: Tilemap_fase2_133
+    21300268: Tilemap_fase2_134
+    21300270: Tilemap_fase2_135
+    21300272: Tilemap_fase2_136
+    21300274: Tilemap_fase2_137
+    21300276: Tilemap_fase2_138
+    21300278: Tilemap_fase2_139
+    21300280: Tilemap_fase2_140
+    21300282: Tilemap_fase2_141
+    21300284: Tilemap_fase2_142
+    21300286: Tilemap_fase2_143
+    21300288: Tilemap_fase2_144
+    21300290: Tilemap_fase2_145
+    21300292: Tilemap_fase2_146
+    21300294: Tilemap_fase2_147
+    21300296: Tilemap_fase2_148
+    21300298: Tilemap_fase2_149
+    21300300: Tilemap_fase2_150
+    21300302: Tilemap_fase2_151
+    21300304: Tilemap_fase2_152
+    21300306: Tilemap_fase2_153
+    21300308: Tilemap_fase2_154
+    21300310: Tilemap_fase2_155
+    21300312: Tilemap_fase2_156
+    21300314: Tilemap_fase2_157
+    21300316: Tilemap_fase2_158
+    21300318: Tilemap_fase2_159
+    21300320: Tilemap_fase2_160
+    21300322: Tilemap_fase2_161
+    21300324: Tilemap_fase2_162
+    21300326: Tilemap_fase2_163
+    21300328: Tilemap_fase2_164
+    21300330: Tilemap_fase2_165
+    21300332: Tilemap_fase2_166
+    21300334: Tilemap_fase2_167
+    21300336: Tilemap_fase2_168
+    21300338: Tilemap_fase2_169
+    21300340: Tilemap_fase2_170
+    21300342: Tilemap_fase2_171
+    21300344: Tilemap_fase2_172
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 69
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tilemap_fase2_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 912
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 912
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 912
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 912
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 912
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_5
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 912
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_6
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 912
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_7
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 912
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_8
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 912
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_9
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 912
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_10
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 912
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_11
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 912
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 842
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_13
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 842
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_14
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 842
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_15
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 842
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_16
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 842
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_17
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 842
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_18
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 842
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_19
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 842
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_20
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 842
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_21
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 842
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_22
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 842
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_23
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 842
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 772
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_25
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 772
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_26
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 772
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_27
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 772
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_28
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 772
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_29
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 772
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_30
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 772
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_31
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 772
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_32
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 772
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_33
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 772
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_34
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 772
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_35
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 772
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 702
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_37
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 702
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_38
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 702
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_39
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 702
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_40
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 702
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_41
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 702
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_42
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 702
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_43
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 702
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_44
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 702
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_45
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 702
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_46
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 702
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_47
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 702
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 632
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_49
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 632
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_50
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 632
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_51
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 632
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_52
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 632
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_53
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 632
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_54
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 632
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_55
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 632
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_56
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 632
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_57
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 632
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_58
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 632
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_59
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 632
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 562
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_61
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 562
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_62
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 562
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_63
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 562
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_64
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 562
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_65
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 562
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_66
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 562
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_67
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 562
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_68
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 562
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_69
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 562
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_70
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 562
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_71
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 492
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_72
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 492
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_73
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 492
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_74
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 492
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_75
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 492
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_76
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 492
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_77
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 492
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_78
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 492
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_79
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 492
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_80
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 492
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_81
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 492
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_82
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 422
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_83
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 422
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_84
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 422
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_85
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 422
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_86
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 422
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_87
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 422
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_88
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 422
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_89
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 422
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_90
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 422
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_91
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 422
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_92
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 422
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_93
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 422
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_94
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 422
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_95
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 352
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_96
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 352
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_97
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 352
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_98
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 352
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_99
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 352
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_100
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 352
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_101
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 352
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_102
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 352
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_103
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 352
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_104
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 352
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_105
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 352
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_106
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 352
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_107
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 352
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_108
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 282
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_109
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 282
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_110
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 282
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_111
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 282
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_112
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 282
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_113
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 282
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_114
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 282
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_115
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 282
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_116
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 282
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_117
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 282
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_118
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 282
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_119
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 282
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_120
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 282
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_121
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 212
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_122
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 212
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_123
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 212
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_124
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 212
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_125
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 212
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_126
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 212
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_127
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 212
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_128
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 212
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_129
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 212
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_130
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 212
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_131
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 212
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_132
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 212
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_133
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 212
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_134
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 142
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_135
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 142
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_136
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 142
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_137
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 142
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_138
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 142
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_139
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 142
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_140
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 142
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_141
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 142
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_142
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 142
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_143
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 142
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_144
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 142
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_145
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 142
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_146
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 142
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_147
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 72
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_148
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 72
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_149
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 72
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_150
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 72
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_151
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 72
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_152
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 72
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_153
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 72
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_154
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 72
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_155
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 72
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_156
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 72
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_157
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 72
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_158
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 72
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_159
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 72
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_160
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_161
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 2
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_162
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 2
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_163
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_164
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_165
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 2
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_166
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 2
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_167
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 2
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_168
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 2
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_169
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 2
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_170
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 2
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_171
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 2
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tilemap_fase2_172
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 2
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
