@@ -15,7 +15,7 @@ public class EnemyWalk : MonoBehaviour
 	bool walkBack = false;
 	int wayPointIndex = 0;
 
-	public Rigidbody2D rigidbody2D;
+	public new Rigidbody2D rigidbody2D;
 	public SpriteRenderer spriterenderer;
 
 	void Start ()

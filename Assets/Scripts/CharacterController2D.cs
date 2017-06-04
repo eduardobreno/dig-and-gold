@@ -26,7 +26,7 @@ public class CharacterController2D : MonoBehaviour
 	public bool setLandTrigger = false;
 
 	[Header ("Components")]
-	public Rigidbody2D rigidbody2D;
+	public new Rigidbody2D rigidbody2D;
 	public SpriteRenderer spriterenderer;
 	public Animator animator;
 
