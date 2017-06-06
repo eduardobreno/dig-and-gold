@@ -33,6 +33,8 @@ public class Player : MonoBehaviour
 	protected string animatorFall = "Fall";
 	protected string animatorLand = "Land";
 
+	//public bool isTouchItem;
+
 	void Start ()
 	{
 		controller = GetComponent<Controller2D> ();
@@ -55,16 +57,23 @@ public class Player : MonoBehaviour
 
 		spriterenderer.flipX = isFacingLeft;
 
+		if(controller.isTouching){
+			print ("PLAYER TOUCH");
+			velocity.y = jumpVelocity;
+			Destroy (controller.PickUp());
+		}
+
 
 		if (Input.GetKeyDown (KeyCode.Space) && controller.collisions.below) {
 			velocity.y = jumpVelocity;
 		}
 
 		float targetVelocityX = input.x * moveSpeed;
-		velocity.x = Mathf.SmoothDamp (velocity.x, targetVelocityX, 
-			ref velocityXSmoothing, (controller.collisions.below) ? accelerationTimeGrounded : accelerationTimeAirborne);
+		velocity.x = Mathf.SmoothDamp (velocity.x, targetVelocityX,	ref velocityXSmoothing, (controller.collisions.below) ? accelerationTimeGrounded : accelerationTimeAirborne);
 		velocity.y += gravity * Time.deltaTime;
+
 		controller.Move (velocity * Time.deltaTime);
+
 		if (input.x < 0 && !isFacingLeft) {
 			isFacingLeft = true;
 		} else if (input.x > 0 && isFacingLeft) {

@@ -113,7 +113,7 @@ public class CharacterController2D : MonoBehaviour
 		moveSpeed.y = rigidbody2D.velocity.y;
 
 		if (isGrounded) {
-			//Debug.Log ("no chao");
+			Debug.Log ("no chao");
 			// Esta no chao
 			if (isFalling) {
 				setLandTrigger = true;

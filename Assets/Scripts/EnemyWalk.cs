@@ -67,4 +67,11 @@ public class EnemyWalk : MonoBehaviour
 		Vector2 velocity = new Vector2((transform.position.x - position.x) * speed, (transform.position.y - position.y) * speed);
 		rigidbody2D.velocity = -velocity;
 	}
+
+	void OnTriggerEnter2D (Collider2D other)
+	{
+		print ("collider enemy");
+		if (other.gameObject.CompareTag("Player"))
+			Destroy(gameObject);
+	}
 }
