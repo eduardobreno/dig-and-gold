@@ -31,7 +31,7 @@ public class Controller2D : MonoBehaviour {
 	public void Move(Vector3 velocity) {
 		UpdateRaycastOrigins ();
 		collisions.Reset ();
-
+		print (isTouching);
 		if (velocity.x != 0) {
 			HorizontalCollisions (ref velocity);
 		}
@@ -64,12 +64,10 @@ public class Controller2D : MonoBehaviour {
 			}
 
 			if (hitPickUp) {	
-				//print ("HORIZONTAL RAYCASTING TOUCHING!!!!!");
+				print ("HORIZONTAL RAYCASTING TOUCHING!!!!!");
 				pickUp = hitPickUp.collider.gameObject;
 				//Destroy (pickUp);
 				isTouching = true;
-			} else {
-				isTouching = false;
 			} 
 		}
 	}
@@ -96,11 +94,9 @@ public class Controller2D : MonoBehaviour {
 			}
 
 			if (hitPickUp) {
-				//print ("VERTICAL RAYCASTING TOUCHING!!!!!");
+				print ("VERTICAL RAYCASTING TOUCHING!!!!!");
 				pickUp = hitPickUp.collider.gameObject;
 				isTouching = true;
-			} else {
-				isTouching = false;
 			}
 
 		}

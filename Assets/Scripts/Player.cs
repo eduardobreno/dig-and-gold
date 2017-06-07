@@ -61,6 +61,8 @@ public class Player : MonoBehaviour
 			print ("PLAYER TOUCH");
 			velocity.y = jumpVelocity;
 			Destroy (controller.PickUp());
+			GameObject.Find ("txtScore").GetComponent<Score> ().totalPoints++;
+			controller.isTouching = false;
 		}
 
 
