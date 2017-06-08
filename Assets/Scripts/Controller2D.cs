@@ -64,9 +64,7 @@ public class Controller2D : MonoBehaviour {
 			}
 
 			if (hitPickUp) {	
-				print ("HORIZONTAL RAYCASTING TOUCHING!!!!!");
 				pickUp = hitPickUp.collider.gameObject;
-				//Destroy (pickUp);
 				isTouching = true;
 			} 
 		}
@@ -94,7 +92,6 @@ public class Controller2D : MonoBehaviour {
 			}
 
 			if (hitPickUp) {
-				print ("VERTICAL RAYCASTING TOUCHING!!!!!");
 				pickUp = hitPickUp.collider.gameObject;
 				isTouching = true;
 			}
