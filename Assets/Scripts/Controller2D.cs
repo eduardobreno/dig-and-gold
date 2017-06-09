@@ -38,7 +38,7 @@ public class Controller2D : MonoBehaviour {
 		if (velocity.y != 0) {
 			VerticalCollisions (ref velocity);
 		}
-
+		print (velocity);
 		transform.Translate (velocity);
 	}
 
