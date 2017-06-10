@@ -6,6 +6,8 @@ public class Controller2D : MonoBehaviour {
 
 	public LayerMask collisionMask;
 	public LayerMask collisionPickUpMask;
+	public LayerMask collisionKillMask;
+
 
 	const float skinWidth = .015f;
 	public int horizontalRayCount = 4;
@@ -20,7 +22,8 @@ public class Controller2D : MonoBehaviour {
 	RaycastOrigins raycastOrigins;
 	public CollisionInfo collisions;
 
-	public bool isTouching;
+	public bool isTouching=false;
+	public bool isDead;
 	GameObject pickUp;
 
 	void Start() {
@@ -31,14 +34,13 @@ public class Controller2D : MonoBehaviour {
 	public void Move(Vector3 velocity) {
 		UpdateRaycastOrigins ();
 		collisions.Reset ();
-		print (isTouching);
 		if (velocity.x != 0) {
 			HorizontalCollisions (ref velocity);
 		}
 		if (velocity.y != 0) {
 			VerticalCollisions (ref velocity);
 		}
-		print (velocity);
+
 		transform.Translate (velocity);
 	}
 
@@ -52,6 +54,8 @@ public class Controller2D : MonoBehaviour {
 			RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.right * directionX, rayLength, collisionMask);
 
 			RaycastHit2D hitPickUp = Physics2D.Raycast(rayOrigin, Vector2.up * directionX, rayLength, collisionPickUpMask);
+
+			RaycastHit2D killLayer = Physics2D.Raycast(rayOrigin, Vector2.up * directionX, rayLength, collisionKillMask);
 
 			Debug.DrawRay(rayOrigin, Vector2.right * directionX * rayLength,Color.red);
 
@@ -67,6 +71,10 @@ public class Controller2D : MonoBehaviour {
 				pickUp = hitPickUp.collider.gameObject;
 				isTouching = true;
 			} 
+
+			if (killLayer) {	
+				isDead = true;
+			} 
 		}
 	}
 
@@ -79,6 +87,8 @@ public class Controller2D : MonoBehaviour {
 			rayOrigin += Vector2.right * (verticalRaySpacing * i + velocity.x);
 			RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.up * directionY, rayLength, collisionMask);
 			RaycastHit2D hitPickUp = Physics2D.Raycast(rayOrigin, Vector2.up * directionY, rayLength, collisionPickUpMask);
+			RaycastHit2D killLayer = Physics2D.Raycast(rayOrigin, Vector2.up * directionY, rayLength, collisionKillMask);
+
 
 			Debug.DrawRay(rayOrigin, Vector2.up * directionY * rayLength,Color.red);
 
@@ -95,6 +105,10 @@ public class Controller2D : MonoBehaviour {
 				pickUp = hitPickUp.collider.gameObject;
 				isTouching = true;
 			}
+
+			if (killLayer) {	
+				isDead = true;
+			} 
 
 		}
 	}

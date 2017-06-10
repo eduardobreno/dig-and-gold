@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
+
 
 [RequireComponent (typeof(Controller2D))]
 public class Player : MonoBehaviour
@@ -58,7 +60,6 @@ public class Player : MonoBehaviour
 		spriterenderer.flipX = isFacingLeft;
 
 		if(controller.isTouching){
-			print ("PLAYER TOUCH");
 			velocity.y = jumpVelocity;
 			Destroy (controller.PickUp());
 			GameObject.Find ("txtScore").GetComponent<Score> ().totalPoints++;
@@ -88,6 +89,10 @@ public class Player : MonoBehaviour
 		}
 		isGrounded = GetComponent<Controller2D> ().collisions.below;
 		setJumpTrigger = !isGrounded;
+
+		if (GetComponent<Controller2D> ().isDead) {
+			SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
+		}
 		//isFalling = !GetComponent<Controller2D> ().collisions.below;
 		//setFallTrigger = isFalling;
 	}
