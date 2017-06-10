@@ -65,6 +65,14 @@ public class Player : MonoBehaviour
 			GameObject.Find ("txtScore").GetComponent<Score> ().totalPoints++;
 			controller.isTouching = false;
 		}
+		if(controller.isTouchingSP){
+			print ("aqui");
+			velocity.y = jumpVelocity;
+			Destroy (controller.PickUpSP());
+			GameObject.Find ("txtScore").GetComponent<Score> ().totalPoints +=1000;
+			controller.isTouchingSP = false;
+		}
+
 
 
 		if (Input.GetKeyDown (KeyCode.Space) && controller.collisions.below) {

@@ -7,6 +7,8 @@ public class Controller2D : MonoBehaviour {
 	public LayerMask collisionMask;
 	public LayerMask collisionPickUpMask;
 	public LayerMask collisionKillMask;
+	public LayerMask collisionSPMask;
+
 
 
 	const float skinWidth = .015f;
@@ -23,8 +25,11 @@ public class Controller2D : MonoBehaviour {
 	public CollisionInfo collisions;
 
 	public bool isTouching=false;
+	public bool isTouchingSP=false;
+
 	public bool isDead;
 	GameObject pickUp;
+	GameObject pickUpSP;
 
 	void Start() {
 		collider = GetComponent<BoxCollider2D> ();
@@ -56,6 +61,8 @@ public class Controller2D : MonoBehaviour {
 			RaycastHit2D hitPickUp = Physics2D.Raycast(rayOrigin, Vector2.up * directionX, rayLength, collisionPickUpMask);
 
 			RaycastHit2D killLayer = Physics2D.Raycast(rayOrigin, Vector2.up * directionX, rayLength, collisionKillMask);
+			RaycastHit2D sp = Physics2D.Raycast(rayOrigin, Vector2.up * directionX, rayLength, collisionSPMask);
+
 
 			Debug.DrawRay(rayOrigin, Vector2.right * directionX * rayLength,Color.red);
 
@@ -70,6 +77,11 @@ public class Controller2D : MonoBehaviour {
 			if (hitPickUp) {	
 				pickUp = hitPickUp.collider.gameObject;
 				isTouching = true;
+			} 
+
+			if (sp) {	
+				pickUpSP = sp.collider.gameObject;
+				isTouchingSP = true;
 			} 
 
 			if (killLayer) {	
@@ -155,5 +167,8 @@ public class Controller2D : MonoBehaviour {
 
 	public GameObject PickUp(){
 		return pickUp;
+	}
+	public GameObject PickUpSP(){
+		return pickUpSP;
 	}
 }

@@ -16,8 +16,8 @@ TagManager:
   - 
   - 
   - Ground
+  - PickUpSpecial
   - PickUp
-  - 
   - 
   - 
   - 
@@ -43,6 +43,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: 
+  - name: PickUp
     uniqueID: 3154334073
+    locked: 0
+  - name: New Layer
+    uniqueID: 3409679629
     locked: 0
