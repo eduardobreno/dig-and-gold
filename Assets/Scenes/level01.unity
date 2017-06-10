@@ -724,7 +724,7 @@ GameObject:
   - component: {fileID: 27918281}
   m_Layer: 9
   m_Name: Tile|8.5|-1.5
-  m_TagString: Untagged
+  m_TagString: SpecialPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18800,7 +18800,7 @@ GameObject:
   - component: {fileID: 571985078}
   m_Layer: 9
   m_Name: Tile|-6.5|3.5
-  m_TagString: Untagged
+  m_TagString: SpecialPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38347,7 +38347,7 @@ GameObject:
   - component: {fileID: 1152239339}
   m_Layer: 9
   m_Name: Tile|24.5|2.5
-  m_TagString: Untagged
+  m_TagString: SpecialPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43235,6 +43235,7 @@ MonoBehaviour:
   isTouching: 0
   isTouchingSP: 0
   isDead: 0
+  SPTotal: 0
 --- !u!61 &1292764865
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -65885,7 +65886,7 @@ GameObject:
   - component: {fileID: 1944602464}
   m_Layer: 9
   m_Name: Tile|-6.5|-4.5
-  m_TagString: Untagged
+  m_TagString: SpecialPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

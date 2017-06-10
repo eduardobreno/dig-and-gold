@@ -35,6 +35,8 @@ public class Player : MonoBehaviour
 	protected string animatorFall = "Fall";
 	protected string animatorLand = "Land";
 
+	private int spTotal = 0;
+
 	//public bool isTouchItem;
 
 	void Start ()
@@ -66,9 +68,13 @@ public class Player : MonoBehaviour
 			controller.isTouching = false;
 		}
 		if(controller.isTouchingSP){
-			print ("aqui");
+
 			velocity.y = jumpVelocity;
 			Destroy (controller.PickUpSP());
+			spTotal++;
+			if (spTotal == controller.SPTotal) {
+				print ("Venceu!");
+			}
 			GameObject.Find ("txtScore").GetComponent<Score> ().totalPoints +=1000;
 			controller.isTouchingSP = false;
 		}

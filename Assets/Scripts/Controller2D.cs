@@ -28,11 +28,15 @@ public class Controller2D : MonoBehaviour {
 	public bool isTouchingSP=false;
 
 	public bool isDead;
+	public int SPTotal;
+
 	GameObject pickUp;
 	GameObject pickUpSP;
 
 	void Start() {
 		collider = GetComponent<BoxCollider2D> ();
+		SPTotal = GameObject.FindGameObjectsWithTag ("SpecialPoints").Length;
+		print (SPTotal);
 		CalculateRaySpacing ();
 	}
 
