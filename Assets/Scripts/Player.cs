@@ -7,11 +7,11 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
 
-	public float jumpHeight = 4;
+	public float jumpHeight = 6;
 	public float timeToJumpApex = .4f;
 	float accelerationTimeAirborne = .2f;
 	float accelerationTimeGrounded = .1f;
-	float moveSpeed = 6;
+	float moveSpeed = 10;
 
 	float gravity;
 	float jumpVelocity;
@@ -68,7 +68,7 @@ public class Player : MonoBehaviour
 			controller.isTouching = false;
 		}
 		if(controller.isTouchingSP){
-
+	
 			velocity.y = jumpVelocity;
 			Destroy (controller.PickUpSP());
 			spTotal++;
