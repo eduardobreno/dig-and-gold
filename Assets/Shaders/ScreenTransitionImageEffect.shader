@@ -46,9 +46,9 @@ Shader "Hidden/ScreenTransitionImageEffect"
 				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.uv = v.uv;
 
-			#if UNITY_UV_STARTS_AT_TOP
-				o.uv.y = 1 - o.uv.y;
-			#endif
+			//#if UNITY_UV_STARTS_AT_TOP
+			//	o.uv.y = 1 - o.uv.y;
+			//#endif
 
 				return o;
 			}
