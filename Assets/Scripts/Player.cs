@@ -99,6 +99,7 @@ public class Player : MonoBehaviour
 		if (input.x != 0f) {
 			isRunning = true;
 		} else {
+			velocity.x = 0;
 			isRunning = false;
 		}
 		isGrounded = GetComponent<Controller2D> ().collisions.below;
