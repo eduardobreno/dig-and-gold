@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
 	float jumpVelocity;
 	Vector3 velocity;
 	float velocityXSmoothing;
+	public float jumpBlockForce = 5;
 
 	Controller2D controller;
 	protected Animator animator;
@@ -67,6 +68,14 @@ public class Player : MonoBehaviour
 			GameObject.Find ("txtScore").GetComponent<Score> ().totalPoints++;
 			controller.isTouching = false;
 		}
+
+		if(controller.isJumpTouching){
+			velocity.y = jumpVelocity + jumpBlockForce;
+			//Destroy (controller.PickUp());
+			//GameObject.Find ("txtScore").GetComponent<Score> ().totalPoints++;
+			controller.isJumpTouching = false;
+		}
+
 		if(controller.isTouchingSP){
 	
 			velocity.y = jumpVelocity;

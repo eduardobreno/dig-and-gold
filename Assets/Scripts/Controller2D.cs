@@ -8,8 +8,7 @@ public class Controller2D : MonoBehaviour {
 	public LayerMask collisionPickUpMask;
 	public LayerMask collisionKillMask;
 	public LayerMask collisionSPMask;
-
-
+	public LayerMask collisionJumpMask;
 
 	const float skinWidth = .015f;
 	public int horizontalRayCount = 4;
@@ -26,6 +25,8 @@ public class Controller2D : MonoBehaviour {
 
 	public bool isTouching=false;
 	public bool isTouchingSP=false;
+
+	public bool isJumpTouching=false;
 
 	public bool isDead;
 	public int SPTotal;
@@ -65,6 +66,7 @@ public class Controller2D : MonoBehaviour {
 			RaycastHit2D hitPickUp = Physics2D.Raycast(rayOrigin, Vector2.up * directionX, rayLength, collisionPickUpMask);
 
 			RaycastHit2D killLayer = Physics2D.Raycast(rayOrigin, Vector2.up * directionX, rayLength, collisionKillMask);
+
 			RaycastHit2D sp = Physics2D.Raycast(rayOrigin, Vector2.up * directionX, rayLength, collisionSPMask);
 
 
@@ -91,6 +93,8 @@ public class Controller2D : MonoBehaviour {
 			if (killLayer) {	
 				isDead = true;
 			} 
+
+
 		}
 	}
 
@@ -104,7 +108,7 @@ public class Controller2D : MonoBehaviour {
 			RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.up * directionY, rayLength, collisionMask);
 			RaycastHit2D hitPickUp = Physics2D.Raycast(rayOrigin, Vector2.up * directionY, rayLength, collisionPickUpMask);
 			RaycastHit2D killLayer = Physics2D.Raycast(rayOrigin, Vector2.up * directionY, rayLength, collisionKillMask);
-
+			RaycastHit2D jumpLayer = Physics2D.Raycast(rayOrigin, Vector2.up * directionY, rayLength, collisionJumpMask);
 
 			Debug.DrawRay(rayOrigin, Vector2.up * directionY * rayLength,Color.red);
 
@@ -125,6 +129,11 @@ public class Controller2D : MonoBehaviour {
 			if (killLayer) {	
 				isDead = true;
 			} 
+
+			if(jumpLayer){
+				isJumpTouching = true;
+			}
+
 
 		}
 	}
