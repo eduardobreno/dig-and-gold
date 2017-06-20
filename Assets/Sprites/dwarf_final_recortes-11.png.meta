@@ -1,9 +1,31 @@
 fileFormatVersion: 2
 guid: 710bf0f684d55f240aa598d33cf50c81
-timeCreated: 1497563507
+timeCreated: 1497930808
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: dwarf_final_recortes-11_0
+    21300002: dwarf_final_recortes-11_1
+    21300004: dwarf_final_recortes-11_2
+    21300006: dwarf_final_recortes-11_3
+    21300008: dwarf_final_recortes-11_4
+    21300010: dwarf_final_recortes-11_5
+    21300012: dwarf_final_recortes-11_6
+    21300014: dwarf_final_recortes-11_7
+    21300016: dwarf_final_recortes-11_8
+    21300018: dwarf_final_recortes-11_9
+    21300020: dwarf_final_recortes-11_10
+    21300022: dwarf_final_recortes-11_11
+    21300024: dwarf_final_recortes-11_12
+    21300026: dwarf_final_recortes-11_13
+    21300028: dwarf_final_recortes-11_14
+    21300030: dwarf_final_recortes-11_15
+    21300032: dwarf_final_recortes-11_16
+    21300034: dwarf_final_recortes-11_17
+    21300036: dwarf_final_recortes-11_18
+    21300038: dwarf_final_recortes-11_19
+    21300040: dwarf_final_recortes-11_20
+    21300042: dwarf_final_recortes-11_21
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +56,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +80,319 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 61
+        width: 27
+        height: 39
+      alignment: 9
+      pivot: {x: 0.53080493, y: 0.06493925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 60
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 69
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 70
+        width: 6
+        height: 17
+      alignment: 9
+      pivot: {x: 0.83269376, y: 0.90118945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 70
+        width: 7
+        height: 17
+      alignment: 9
+      pivot: {x: 0.35741752, y: 0.89140457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 28
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_6
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 53
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_7
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 55
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 44
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 44
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 32
+        width: 15
+        height: 12
+      alignment: 9
+      pivot: {x: 0.8548731, y: 0.23661804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 32
+        width: 15
+        height: 12
+      alignment: 9
+      pivot: {x: 0.18948619, y: 0.20889346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 32
+        width: 15
+        height: 10
+      alignment: 9
+      pivot: {x: 0.78833413, y: 0.25047988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_13
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 32
+        width: 15
+        height: 10
+      alignment: 9
+      pivot: {x: 0.21166585, y: 0.2837494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.37523985, y: 0.770314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 16
+        width: 16
+        height: 9
+      alignment: 9
+      pivot: {x: 0.9158671, y: 0.7402785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_16
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 15
+        width: 17
+        height: 9
+      alignment: 9
+      pivot: {x: 0.83269364, y: 0.7587615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_17
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 5
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_18
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 8
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.6940711, y: 0.79942477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 8
+        width: 10
+        height: 5
+      alignment: 9
+      pivot: {x: 0.20057602, y: 0.43346176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_20
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1
+        width: 15
+        height: 12
+      alignment: 9
+      pivot: {x: 0.25602493, y: 0.8465557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_final_recortes-11_21
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1
+        width: 15
+        height: 12
+      alignment: 9
+      pivot: {x: 0.20057628, y: 0.8188312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
