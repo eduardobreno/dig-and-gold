@@ -60,7 +60,7 @@ public class Player : MonoBehaviour
 
 		Vector2 input = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));	
 
-		spriterenderer.flipX = isFacingLeft;
+//		spriterenderer.flipX = isFacingLeft;
 
 		if(controller.isTouching){
 			velocity.y = jumpVelocity;
