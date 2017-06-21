@@ -37,7 +37,7 @@ public class Controller2D : MonoBehaviour {
 	void Start() {
 		collider = GetComponent<BoxCollider2D> ();
 		SPTotal = GameObject.FindGameObjectsWithTag ("SpecialPoints").Length;
-
+		SPTotal = 1;
 		CalculateRaySpacing ();
 	}
 

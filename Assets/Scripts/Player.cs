@@ -83,6 +83,7 @@ public class Player : MonoBehaviour
 			spTotal++;
 			if (spTotal == controller.SPTotal) {
 				print ("Venceu!");
+				GameObject.Find ("GameManager").GetComponent<LevelManager>().NextLevel();
 			}
 			GameObject.Find ("txtScore").GetComponent<Score> ().totalPoints +=1000;
 			controller.isTouchingSP = false;
