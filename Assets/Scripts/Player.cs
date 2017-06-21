@@ -115,9 +115,10 @@ public class Player : MonoBehaviour
 		isGrounded = GetComponent<Controller2D> ().collisions.below;
 		setJumpTrigger = !isGrounded;
 
-		if (GetComponent<Controller2D> ().isDead) {
+		if (GetComponent<Controller2D> ().isDead || Input.GetKeyDown (KeyCode.R)) {
 			SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
 		}
+
 		//isFalling = !GetComponent<Controller2D> ().collisions.below;
 		//setFallTrigger = isFalling;
 	}
