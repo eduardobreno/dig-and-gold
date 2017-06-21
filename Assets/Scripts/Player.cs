@@ -83,6 +83,7 @@ public class Player : MonoBehaviour
 			spTotal++;
 			if (spTotal == controller.SPTotal) {
 				print ("Venceu!");
+				GameObject.Find ("GameManager").GetComponent<LevelManager>().NextLevel();
 			}
 			GameObject.Find ("txtScore").GetComponent<Score> ().totalPoints +=1000;
 			controller.isTouchingSP = false;
@@ -114,9 +115,10 @@ public class Player : MonoBehaviour
 		isGrounded = GetComponent<Controller2D> ().collisions.below;
 		setJumpTrigger = !isGrounded;
 
-		if (GetComponent<Controller2D> ().isDead) {
+		if (GetComponent<Controller2D> ().isDead || Input.GetKeyDown (KeyCode.R)) {
 			SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
 		}
+
 		//isFalling = !GetComponent<Controller2D> ().collisions.below;
 		//setFallTrigger = isFalling;
 	}
