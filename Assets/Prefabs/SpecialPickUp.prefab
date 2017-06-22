@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61557473796675914}
   m_Layer: 9
   m_Name: SpecialPickUp
-  m_TagString: Untagged
+  m_TagString: SpecialPoints
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,7 +35,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1346950110989474}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.5, y: 23.5, z: 0}
+  m_LocalPosition: {x: -16.5, y: 9.5, z: 0}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children: []
   m_Father: {fileID: 0}

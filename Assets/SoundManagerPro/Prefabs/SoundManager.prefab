@@ -246,6 +246,16 @@ MonoBehaviour:
     minDelay: 0
     maxDelay: 0
     delay: 0
+  - level: Credits
+    isCustomLevel: 0
+    soundsToPlay:
+    - {fileID: 8300000, guid: b4177ca4f9342794ca0ecb58de41ff85, type: 3}
+    baseVolumes:
+    - 1
+    playMethod: 0
+    minDelay: 0
+    maxDelay: 0
+    delay: 0
   audios:
   - {fileID: 8200002}
   - {fileID: 8200000}
