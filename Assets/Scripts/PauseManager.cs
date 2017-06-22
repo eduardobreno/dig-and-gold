@@ -7,12 +7,13 @@ public class PauseManager : MonoBehaviour {
 	GameObject pause;
 
 	void Start(){
-		pause = GameObject.Find ("txtPause");
+		pause = GameObject.Find ("pauseMenu");
 		pause.SetActive(false);
 	}
 
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.P)) {
+			SoundManager.PlaySFX("pause");
 			Pause();
 		}
 

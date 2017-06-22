@@ -63,21 +63,25 @@ public class Player : MonoBehaviour
 //		spriterenderer.flipX = isFacingLeft;
 
 		if(controller.isTouching){
+			SoundManager.PlaySFX("pickup");
 			velocity.y = jumpVelocity;
 			Destroy (controller.PickUp());
 			GameObject.Find ("txtScore").GetComponent<Score> ().totalPoints++;
 			controller.isTouching = false;
+
 		}
 
 		if(controller.isJumpTouching){
+			SoundManager.PlaySFX("impact");
 			velocity.y = jumpVelocity + jumpBlockForce;
 			//Destroy (controller.PickUp());
 			//GameObject.Find ("txtScore").GetComponent<Score> ().totalPoints++;
 			controller.isJumpTouching = false;
+
 		}
 
 		if(controller.isTouchingSP){
-	
+			SoundManager.PlaySFX("sp_pickup");
 			velocity.y = jumpVelocity;
 			Destroy (controller.PickUpSP());
 			spTotal++;
@@ -91,7 +95,8 @@ public class Player : MonoBehaviour
 
 
 
-		if (Input.GetKeyDown (KeyCode.Space) && controller.collisions.below) {
+		if ((Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.W) || Input.GetKeyDown (KeyCode.UpArrow)) && controller.collisions.below) {
+			SoundManager.PlaySFX("jump");
 			velocity.y = jumpVelocity;
 		}
 
@@ -115,13 +120,24 @@ public class Player : MonoBehaviour
 		isGrounded = GetComponent<Controller2D> ().collisions.below;
 		setJumpTrigger = !isGrounded;
 
-		if (GetComponent<Controller2D> ().isDead || Input.GetKeyDown (KeyCode.R)) {
-			SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
+		if (GetComponent<Controller2D> ().isDead) {
+			SoundManager.PlaySFX("death");
+			restartLevel ();
 		}
 
+		if (Input.GetKeyDown (KeyCode.R)) {
+			SoundManager.PlaySFX("restart");
+			restartLevel ();
+		}
+			
 		//isFalling = !GetComponent<Controller2D> ().collisions.below;
 		//setFallTrigger = isFalling;
 	}
+
+	void restartLevel(){
+		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
+	}
+
 	void Awake()
 	{
 		// Setup animator parameters
