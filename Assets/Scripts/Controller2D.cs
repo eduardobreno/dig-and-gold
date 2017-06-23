@@ -37,7 +37,7 @@ public class Controller2D : MonoBehaviour {
 	void Start() {
 		collider = GetComponent<BoxCollider2D> ();
 		SPTotal = GameObject.FindGameObjectsWithTag ("SpecialPoints").Length;
-		print (SPTotal);
+
 		CalculateRaySpacing ();
 	}
 
@@ -63,11 +63,11 @@ public class Controller2D : MonoBehaviour {
 			rayOrigin += Vector2.up * (horizontalRaySpacing * i);
 			RaycastHit2D hit = Physics2D.Raycast(rayOrigin, Vector2.right * directionX, rayLength, collisionMask);
 
-			RaycastHit2D hitPickUp = Physics2D.Raycast(rayOrigin, Vector2.up * directionX, rayLength, collisionPickUpMask);
+			RaycastHit2D hitPickUp = Physics2D.Raycast(rayOrigin, Vector2.right * directionX, rayLength, collisionPickUpMask);
 
-			RaycastHit2D killLayer = Physics2D.Raycast(rayOrigin, Vector2.up * directionX, rayLength, collisionKillMask);
+			RaycastHit2D killLayer = Physics2D.Raycast(rayOrigin, Vector2.right * directionX, rayLength, collisionKillMask);
 
-			RaycastHit2D sp = Physics2D.Raycast(rayOrigin, Vector2.up * directionX, rayLength, collisionSPMask);
+			RaycastHit2D sp = Physics2D.Raycast(rayOrigin, Vector2.right * directionX, rayLength, collisionSPMask);
 
 
 			Debug.DrawRay(rayOrigin, Vector2.right * directionX * rayLength,Color.red);
@@ -109,6 +109,8 @@ public class Controller2D : MonoBehaviour {
 			RaycastHit2D hitPickUp = Physics2D.Raycast(rayOrigin, Vector2.up * directionY, rayLength, collisionPickUpMask);
 			RaycastHit2D killLayer = Physics2D.Raycast(rayOrigin, Vector2.up * directionY, rayLength, collisionKillMask);
 			RaycastHit2D jumpLayer = Physics2D.Raycast(rayOrigin, Vector2.up * directionY, rayLength, collisionJumpMask);
+			RaycastHit2D sp = Physics2D.Raycast(rayOrigin, Vector2.up * directionY, rayLength, collisionSPMask);
+
 
 			Debug.DrawRay(rayOrigin, Vector2.up * directionY * rayLength,Color.red);
 
@@ -125,6 +127,10 @@ public class Controller2D : MonoBehaviour {
 				pickUp = hitPickUp.collider.gameObject;
 				isTouching = true;
 			}
+			if (sp) {	
+				pickUpSP = sp.collider.gameObject;
+				isTouchingSP = true;
+			} 
 
 			if (killLayer) {	
 				isDead = true;
