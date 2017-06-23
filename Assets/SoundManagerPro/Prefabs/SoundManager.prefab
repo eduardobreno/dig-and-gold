@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   helpOn: 0
-  showInfo: 0
+  showInfo: 1
   showDev: 0
   showList: 1
   showAdd: 1
@@ -226,10 +226,30 @@ MonoBehaviour:
     minDelay: 0
     maxDelay: 0
     delay: 0
-  - level: level01_final
+  - level: Credits
+    isCustomLevel: 0
+    soundsToPlay:
+    - {fileID: 8300000, guid: b4177ca4f9342794ca0ecb58de41ff85, type: 3}
+    baseVolumes:
+    - 1
+    playMethod: 0
+    minDelay: 0
+    maxDelay: 0
+    delay: 0
+  - level: Splash
     isCustomLevel: 0
     soundsToPlay:
     - {fileID: 8300000, guid: 0d0d603bab8a53e478fd2feebc6c0ed8, type: 3}
+    baseVolumes:
+    - 1
+    playMethod: 0
+    minDelay: 0
+    maxDelay: 0
+    delay: 0
+  - level: level01_final
+    isCustomLevel: 0
+    soundsToPlay:
+    - {fileID: 8300000, guid: d7e7a9d0dbb233d4e9e766a102ecff4f, type: 3}
     baseVolumes:
     - 1
     playMethod: 0
@@ -239,17 +259,7 @@ MonoBehaviour:
   - level: level02_final
     isCustomLevel: 0
     soundsToPlay:
-    - {fileID: 8300000, guid: 0d0d603bab8a53e478fd2feebc6c0ed8, type: 3}
-    baseVolumes:
-    - 1
-    playMethod: 0
-    minDelay: 0
-    maxDelay: 0
-    delay: 0
-  - level: Credits
-    isCustomLevel: 0
-    soundsToPlay:
-    - {fileID: 8300000, guid: b4177ca4f9342794ca0ecb58de41ff85, type: 3}
+    - {fileID: 8300000, guid: d7e7a9d0dbb233d4e9e766a102ecff4f, type: 3}
     baseVolumes:
     - 1
     playMethod: 0
