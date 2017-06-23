@@ -13,13 +13,13 @@ public class PauseManager : MonoBehaviour {
 
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.P)) {
-			SoundManager.PlaySFX("pause");
 			Pause();
 		}
 
 	}
 
 	public void Pause(){
+		SoundManager.PlaySFX("pause");
 		if (Time.timeScale != 0) {
 			Time.timeScale = 0;
 			pause.SetActive(true);
