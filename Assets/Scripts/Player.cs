@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
 
 	Controller2D controller;
 	protected Animator animator;
-	protected SpriteRenderer spriterenderer;
+	protected Transform transform;
 
 	public bool isFacingLeft = false;
 	public bool isRunning = false;
@@ -44,7 +44,7 @@ public class Player : MonoBehaviour
 	{
 		controller = GetComponent<Controller2D> ();
 		animator = GetComponent<Animator> ();
-		spriterenderer = GetComponent<SpriteRenderer> ();
+		transform = GetComponent<Transform> ();
 
 		gravity = -(2 * jumpHeight) / Mathf.Pow (timeToJumpApex, 2);
 		jumpVelocity = Mathf.Abs (gravity) * timeToJumpApex;
@@ -60,7 +60,11 @@ public class Player : MonoBehaviour
 
 		Vector2 input = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));	
 
-//		spriterenderer.flipX = isFacingLeft;
+		if (isFacingLeft) {
+			transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x),transform.localScale.y,transform.localScale.z);
+		} else {
+			transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x),transform.localScale.y,transform.localScale.z);
+		}
 
 		if(controller.isTouching){
 			SoundManager.PlaySFX("pickup");
