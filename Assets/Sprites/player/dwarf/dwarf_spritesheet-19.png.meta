@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: 64c921f44e0a05f4a87425ec53ef1186
+timeCreated: 1498258055
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dwarf_spritesheet-19_0
+    21300002: dwarf_spritesheet-19_1
+    21300004: dwarf_spritesheet-19_2
+    21300006: dwarf_spritesheet-19_3
+    21300008: dwarf_spritesheet-19_4
+    21300010: dwarf_spritesheet-19_5
+    21300012: dwarf_spritesheet-19_6
+    21300014: dwarf_spritesheet-19_7
+    21300016: dwarf_spritesheet-19_8
+    21300018: dwarf_spritesheet-19_9
+    21300020: dwarf_spritesheet-19_10
+    21300022: dwarf_spritesheet-19_11
+    21300024: dwarf_spritesheet-19_12
+    21300026: dwarf_spritesheet-19_13
+    21300028: dwarf_spritesheet-19_16
+    21300030: dwarf_spritesheet-19_17
+    21300032: dwarf_spritesheet-19_18
+    21300034: dwarf_spritesheet-19_19
+    21300036: dwarf_spritesheet-19_20
+    21300038: dwarf_spritesheet-19_21
+    21300040: dwarf_spritesheet-19_22
+    21300042: dwarf_spritesheet-19_23
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 700
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 338
+        width: 209
+        height: 305
+      alignment: 9
+      pivot: {x: 0.5279184, y: 0.06477141}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 516
+        width: 114
+        height: 90
+      alignment: 9
+      pivot: {x: 0.8710812, y: 0.09479641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_2
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 516
+        width: 113
+        height: 90
+      alignment: 9
+      pivot: {x: 0.099816516, y: 0.12721218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_3
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 539
+        width: 71
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_4
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 428
+        width: 172
+        height: 173
+      alignment: 9
+      pivot: {x: 0.4660758, y: 0.6855035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_5
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 472
+        width: 45
+        height: 131
+      alignment: 9
+      pivot: {x: 0.694496, y: 0.85633165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_6
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 473
+        width: 44
+        height: 132
+      alignment: 9
+      pivot: {x: 0.26792768, y: 0.8425811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_7
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 468
+        width: 74
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_8
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 389
+        width: 114
+        height: 69
+      alignment: 9
+      pivot: {x: 0.89667284, y: 0.20402505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_9
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 389
+        width: 114
+        height: 69
+      alignment: 9
+      pivot: {x: 0.07773523, y: 0.18288389}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_10
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 314
+        width: 45
+        height: 93
+      alignment: 9
+      pivot: {x: 0.7593289, y: 0.87644714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_11
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 315
+        width: 44
+        height: 93
+      alignment: 9
+      pivot: {x: 0.33423406, y: 0.8450764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 214
+        width: 126
+        height: 67
+      alignment: 9
+      pivot: {x: 0.8820493, y: 0.8483536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_13
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 217
+        width: 126
+        height: 68
+      alignment: 9
+      pivot: {x: 0.916781, y: 0.88613486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_16
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 230
+        width: 171
+        height: 143
+      alignment: 9
+      pivot: {x: 0.49146935, y: 0.7244205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_17
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 25
+        width: 184
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 102
+        width: 111
+        height: 84
+      alignment: 9
+      pivot: {x: 0.14517309, y: 0.9341465}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_19
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 110
+        width: 112
+        height: 86
+      alignment: 9
+      pivot: {x: 0.18741444, y: 0.9240503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_20
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 125
+        width: 224
+        height: 162
+      alignment: 9
+      pivot: {x: 0.06368242, y: 0.094796166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_21
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 111
+        width: 34
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5858083, y: 0.8071013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_22
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 42
+        width: 41
+        height: 30
+      alignment: 9
+      pivot: {x: 0.46441948, y: 0.6944978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dwarf_spritesheet-19_23
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 39
+        width: 74
+        height: 35
+      alignment: 9
+      pivot: {x: 0.08603483, y: 0.58335584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
