@@ -1,0 +1,172 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7670M (ID=0x6840)
+    Vendor:   ATI
+    VRAM:     1004 MB
+    Driver:   15.201.1101.0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Repositorio\dig-and-gold\Release\dig&gold_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Repositorio\dig-and-gold\Release\dig&gold_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Repositorio\dig-and-gold\Release\dig&gold_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Repositorio\dig-and-gold\Release\dig&gold_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Repositorio\dig-and-gold\Release\dig&gold_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Repositorio\dig-and-gold\Release\dig&gold_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Repositorio\dig-and-gold\Release\dig&gold_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Repositorio\dig-and-gold\Release\dig&gold_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.023 seconds
+Platform assembly: C:\Repositorio\dig-and-gold\Release\dig&gold_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Repositorio\dig-and-gold\Release\dig&gold_Data\Managed\System.dll (this message is harmless)
+OnLevelWasLoaded was found on SoundManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 376)
+
+OnLevelWasLoaded was found on Fading
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 376)
+
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.642311 ms
+(0) In Level Loaded: Splash
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BGM activated.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Playing: ChillMusic
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Wasn't playing anything, crossing in.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.776469 ms
+(4.02873) In Level Loaded: Menu
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BGM activated.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Playing: main_menu
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Playing another track, crossfading to that.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 358.
+Total: 0.279439 ms (FindLiveObjects: 0.019593 ms CreateObjectMapping: 0.017727 ms MarkObjects: 0.228589 ms  DeleteObjects: 0.013062 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.703351 ms
+(7.472718) In Level Loaded: levelTutorial
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BGM activated.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Playing: Yogscast - Diggy-Diggy Hole
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Playing another track, crossfading to that.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1572.
+Total: 0.479572 ms (FindLiveObjects: 0.066710 ms CreateObjectMapping: 0.027057 ms MarkObjects: 0.360612 ms  DeleteObjects: 0.024725 ms)
+
+Gravity: -50  Jump Velocity: 20
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+Venceu!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.161142 ms
+(30.48822) In Level Loaded: levelTutorial
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BGM activated.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Playing: Yogscast - Diggy-Diggy Hole
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Already playing BGM, check if crossing out(False) or in(False).
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1593.
+Total: 0.532287 ms (FindLiveObjects: 0.082105 ms CreateObjectMapping: 0.025658 ms MarkObjects: 0.417992 ms  DeleteObjects: 0.006064 ms)
+
+Gravity: -50  Jump Velocity: 20
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: b0c -> priority: 1 
+  Thread -> id: 1c68 -> priority: 1 
+  Thread -> id: 1fc4 -> priority: 1 
+  Thread -> id: f4 -> priority: 1 
