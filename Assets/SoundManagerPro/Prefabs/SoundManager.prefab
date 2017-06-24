@@ -25,7 +25,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -266,7 +266,7 @@ MonoBehaviour:
     minDelay: 0
     maxDelay: 0
     delay: 0
-  - level: level01_novo
+  - level: level02_novo
     isCustomLevel: 0
     soundsToPlay:
     - {fileID: 8300000, guid: d7e7a9d0dbb233d4e9e766a102ecff4f, type: 3}
@@ -276,7 +276,7 @@ MonoBehaviour:
     minDelay: 0
     maxDelay: 0
     delay: 0
-  - level: level02_novo
+  - level: levelTutorial
     isCustomLevel: 0
     soundsToPlay:
     - {fileID: 8300000, guid: d7e7a9d0dbb233d4e9e766a102ecff4f, type: 3}
@@ -299,7 +299,7 @@ MonoBehaviour:
     minDelay: 0
     maxDelay: 0
     delay: 0
-  crossDuration: 1
+  crossDuration: 2
   showDebug: 1
   offTheBGM: 0
   isPaused: 0
