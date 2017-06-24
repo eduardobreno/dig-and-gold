@@ -299,7 +299,7 @@ MonoBehaviour:
     minDelay: 0
     maxDelay: 0
     delay: 0
-  crossDuration: 2
+  crossDuration: 1
   showDebug: 1
   offTheBGM: 0
   isPaused: 0
