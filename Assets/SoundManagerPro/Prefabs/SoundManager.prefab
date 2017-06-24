@@ -266,6 +266,26 @@ MonoBehaviour:
     minDelay: 0
     maxDelay: 0
     delay: 0
+  - level: level01_novo
+    isCustomLevel: 0
+    soundsToPlay:
+    - {fileID: 8300000, guid: d7e7a9d0dbb233d4e9e766a102ecff4f, type: 3}
+    baseVolumes:
+    - 1
+    playMethod: 0
+    minDelay: 0
+    maxDelay: 0
+    delay: 0
+  - level: level02_novo
+    isCustomLevel: 0
+    soundsToPlay:
+    - {fileID: 8300000, guid: d7e7a9d0dbb233d4e9e766a102ecff4f, type: 3}
+    baseVolumes:
+    - 1
+    playMethod: 0
+    minDelay: 0
+    maxDelay: 0
+    delay: 0
   audios:
   - {fileID: 8200002}
   - {fileID: 8200000}
